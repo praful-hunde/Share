@@ -1,0 +1,285 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Npam</name>
+    </assembly>
+    <members>
+        <member name="T:Npam.Interop.AccountInfo">
+            <summary>
+             Renamed as "AccountInfo", this structure is actually the linux passwd struct as defined in pwd.h.
+             http://linux.die.net/man/3/getpwnam
+            </summary>
+        </member>
+        <member name="T:Npam.Interop.MessageStyle">
+            <summary>
+             The PAM Message Styles.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.MessageStyle.PAM_RADIO_TYPE">
+            <summary>
+             Yes/No/Maybe conditionals
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.MessageStyle.PAM_BINARY_PROMPT">
+            <summary>
+             This is for server client non-human interaction.. these are NOT
+             part of the X/Open PAM specification.
+            </summary>
+        </member>
+        <member name="T:Npam.Interop.ConvCallback">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Npam.Interop.PamConv">
+            <summary>
+             The actual conversation structure itself.
+            </summary>
+        </member>
+        <member name="T:Npam.Interop.PamMessage">
+            <summary>
+             Used to pass prompting text, error messages, or other informatory
+             text to the user.  This structure is allocated and freed by the PAM
+             library (or loaded module).
+            </summary>
+        </member>
+        <member name="T:Npam.Interop.PamResponse">
+            <summary>
+             Used to return the user's response to the PAM library.  This
+             structure is allocated by the application program, and free()'d by
+             the Linux-PAM library (or calling module).
+            </summary>
+        </member>
+        <member name="T:Npam.Interop.PamStatus">
+            <summary>
+             The PAM return values.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_SUCCESS">
+            <summary>
+            Successful function return.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_OPEN_ERR">
+            <summary>
+            dlopen() failure when dynamically
+            loading a service module.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_SYMBOL_ERR">
+            <summary>
+            Symbol not found.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_SERVICE_ERR">
+            <summary>
+            Error in service module.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_SYSTEM_ERR">
+            <summary>
+            System error.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_BUF_ERR">
+            <summary>
+            Memory buffer error.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_PERM_DENIED">
+            <summary>
+            Permission denied.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_AUTH_ERR">
+            <summary>
+            Authentication failure.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_CRED_INSUFFICIENT">
+            <summary>
+            Can not access authentication data
+            due to insufficient credentials.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_AUTHINFO_UNAVAIL">
+            <summary>
+            Underlying authentication service
+            can not retrieve authentication
+            information.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_USER_UNKNOWN">
+            <summary>
+            User not known to the underlying authenticaiton module.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_MAXTRIES">
+            <summary>
+            An authentication service has
+            maintained a retry count which has
+            been reached.  No further retries
+            should be attempted.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_NEW_AUTHTOK_REQD">
+            <summary>
+            New authentication token required.
+            This is normally returned if the
+            machine security policies require
+            that the password should be changed
+            beccause the password is NULL or it
+            has aged.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_ACCT_EXPIRED">
+            <summary>
+            User account has expired.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_SESSION_ERR">
+            <summary>
+            Can not make/remove an entry for
+            the specified session.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_CRED_UNAVAIL">
+            <summary>
+            Underlying authentication service
+            can not retrieve user credentials
+            unavailable.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_CRED_EXPIRED">
+            <summary>
+            User credentials expired
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_CRED_ERR">
+            <summary>
+            Failure setting user credentials.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_NO_MODULE_DATA">
+            <summary>
+            No module specific data is present.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_CONV_ERR">
+            <summary>
+            Conversation error.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_AUTHTOK_ERR">
+            <summary>
+            Authentication token manipulation error.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_AUTHTOK_RECOVERY_ERR">
+            <summary>
+            Authentication information cannot be recovered.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_AUTHTOK_LOCK_BUSY">
+            <summary>
+            Authentication token lock busy.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_AUTHTOK_DISABLE_AGING">
+            <summary>
+            Authentication token aging disabled.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_TRY_AGAIN">
+            <summary>
+            Preliminary check by password service.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_IGNORE">
+            <summary>
+            Ignore underlying account module
+            regardless of whether the control
+            flag is required, optional, or sufficient.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_ABORT">
+            <summary>
+            Critical error (?module fail now request).
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_AUTHTOK_EXPIRED">
+            <summary>
+            User's authentication token has expired.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_MODULE_UNKNOWN">
+            <summary>
+            Module is not known.
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_BAD_ITEM">
+            <summary>
+            Bad item passed to pam_*_item().
+            </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_CONV_AGAIN">
+             <summary>
+            Conversation function is event driven
+            and data is not available yet.
+             </summary>
+        </member>
+        <member name="F:Npam.Interop.PamStatus.PAM_INCOMPLETE">
+            <summary>
+            Please call this function again to
+            complete authentication stack. Before
+            calling again, verify that conversation
+            is completed.
+            </summary>
+        </member>
+        <member name="M:Npam.MarshalUtils.MarshalPtrPtrStructIn``1(System.Int32,System.IntPtr)">
+            <summary>
+             Marshal an incomming pointer to array of pointers to structs into an enumerable of struct.
+            </summary>
+        </member>
+        <member name="M:Npam.MarshalUtils.MarshalPtrPtrStructOut``1(System.Collections.Generic.List{``0})">
+            <summary>
+             Marshal an outgoing list of structs to a pointer to array of pointers to structs.
+            </summary>
+        </member>
+        <member name="M:Npam.MarshalUtils.MarshalPtrStructOut``1(``0)">
+            <summary>
+             Marshal an outgoing struct to a pointer to that struct.
+            </summary>
+        </member>
+        <member name="M:Npam.NpamSession.Start">
+            <summary>
+             Initializes the session. Must be called first.
+             http://linux.die.net/man/3/pam_start
+            </summary>
+        </member>
+        <member name="M:Npam.NpamSession.Authenticate(System.Int32)">
+            <summary>
+             Authenticates the user against PAM. Only ensures that the username and password are correct. Call AccountManagement to check that the account is in good standing.
+             http://linux.die.net/man/3/pam_authenticate
+            </summary>
+        </member>
+        <member name="M:Npam.NpamSession.AccountManagement(System.Int32)">
+            <summary>
+             Ensures that the account is in good standing - not locked out expired, etc.
+             http://linux.die.net/man/3/pam_acct_mgmt
+            </summary>
+        </member>
+        <member name="M:Npam.NpamSession.End">
+            <summary>
+             Releases the PAM handle held as part of this session.
+             http://linux.die.net/man/3/pam_end
+            </summary>
+        </member>
+        <member name="M:Npam.NpamUser.GetAccountInfo(System.String)">
+            <summary>
+             Gets information on the specified user such as real name, shell and home directory.
+             http://linux.die.net/man/3/getpwnam
+            </summary>
+        </member>
+    </members>
+</doc>
