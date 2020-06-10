@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-10T12:42:31.059Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="tZX8iM4R_Mqmre5w7f74" version="13.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-10T12:47:59.367Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="IEMghVpOK5eqC55iSm22" version="13.2.1" type="github">
   <diagram id="P8l-g-cWGHOJzFGnVJfm" name="Page-1">
     <mxGraphModel dx="868" dy="5582" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" background="#E6E6E6" math="0" shadow="0">
       <root>
@@ -91,9 +91,6 @@
             <mxPoint x="1137" y="-3848" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oYL6rQ3YxCO2vAB4pr-x-55" value="&lt;b&gt;Lenze &lt;/b&gt;Engineer log-in to office machine and access cloud PC to connect to remote device.&lt;br&gt;&lt;br&gt;He uses any &lt;b&gt;&lt;i&gt;EASY Starter&lt;/i&gt;&lt;/b&gt; to connect to the remote device over Ethernet via mobile phone present at remote site" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1104" y="-3719" width="251" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="oYL6rQ3YxCO2vAB4pr-x-63" value="" style="group" parent="1" vertex="1" connectable="0" treatAsSingle="0">
           <mxGeometry x="441" y="-3857" width="33" height="63" as="geometry" />
         </mxCell>
@@ -116,7 +113,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oYL6rQ3YxCO2vAB4pr-x-103" value="&lt;b&gt;Lenze&lt;/b&gt; Engineer is a user with in depth knowledge of &lt;b&gt;Lenze &lt;/b&gt;devices and automation domain. He is an expert user of all engineering tools by &lt;b&gt;Lenze&lt;/b&gt;" style="shape=note;strokeWidth=2;fontSize=11;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1104" y="-3610" width="239" height="67" as="geometry" />
+          <mxGeometry x="1104" y="-3632.05" width="260" height="75" as="geometry" />
         </mxCell>
         <mxCell id="oYL6rQ3YxCO2vAB4pr-x-105" value="Secure VPN connection over internet" style="shape=note;strokeWidth=2;fontSize=11;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" parent="1" vertex="1">
           <mxGeometry x="655" y="-3776" width="87" height="50.05" as="geometry" />
@@ -287,8 +284,8 @@
             <mxPoint x="1147" y="-3176" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UY3xAej-eA8dCbHMgiSt-90" value="&lt;b&gt;Lenze &lt;/b&gt;Engineer log-in to office machine and access cloud PC to connect to remote device.&lt;br&gt;&lt;br&gt;He uses any &lt;b&gt;&lt;i&gt;EASY Starter&lt;/i&gt;&lt;/b&gt; to connect to the remote device over Ethernet via mobile phone present at remote site" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1114" y="-3047" width="251" height="120" as="geometry" />
+        <mxCell id="UY3xAej-eA8dCbHMgiSt-90" value="&lt;b&gt;Lenze &lt;/b&gt;Engineer log-in to the office machine and access cloud PC to connect to remote device.&lt;br&gt;&lt;br&gt;He uses&amp;nbsp;&amp;nbsp;&lt;b&gt;&lt;i&gt;EASY Starter&lt;/i&gt;&lt;/b&gt; to connect to the remote device via mobile phone present at remote site" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1114" y="-3047" width="263" height="98" as="geometry" />
         </mxCell>
         <mxCell id="UY3xAej-eA8dCbHMgiSt-91" value="" style="group" parent="1" vertex="1" connectable="0" treatAsSingle="0">
           <mxGeometry x="437" y="-3186" width="33" height="63" as="geometry" />
@@ -312,7 +309,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UY3xAej-eA8dCbHMgiSt-98" value="&lt;b&gt;Lenze&lt;/b&gt; Engineer is a user with in depth knowledge of &lt;b&gt;Lenze &lt;/b&gt;devices and automation domain. He is an expert user of all engineering tools by &lt;b&gt;Lenze&lt;/b&gt;" style="shape=note;strokeWidth=2;fontSize=11;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1114" y="-2938" width="239" height="67" as="geometry" />
+          <mxGeometry x="1112" y="-2949" width="259" height="67" as="geometry" />
         </mxCell>
         <mxCell id="UY3xAej-eA8dCbHMgiSt-99" value="Secure VPN connection over internet" style="shape=note;strokeWidth=2;fontSize=11;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" parent="1" vertex="1">
           <mxGeometry x="670" y="-3109" width="85" height="55.05" as="geometry" />
@@ -421,6 +418,9 @@
         </mxCell>
         <mxCell id="UY3xAej-eA8dCbHMgiSt-135" value="&lt;h3&gt;&lt;font&gt;&lt;font color=&quot;#0000cc&quot; style=&quot;font-weight: normal&quot;&gt;LENZE &lt;/font&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;REMOTE SUPPORT SYSTEM&lt;/span&gt;&lt;/font&gt;&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="488" y="-4234" width="369" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="S3pU3QtnihFZs1Te8ceZ-2" value="&lt;b&gt;Lenze &lt;/b&gt;Engineer log-in to the office machine and access cloud PC to connect to remote device.&lt;br&gt;&lt;br&gt;He uses&amp;nbsp;&amp;nbsp;&lt;b&gt;&lt;i&gt;EASY Starter&lt;/i&gt;&lt;/b&gt; to connect to the remote device via mobile phone present at remote site" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1104" y="-3730.05" width="263" height="98" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
